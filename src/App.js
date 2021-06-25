@@ -1,10 +1,5 @@
 import { Fragment } from "react";
-import {
-	FaGlobe,
-	FaGraduationCap,
-	FaThumbsUp,
-	FaGrav,
-} from "react-icons/fa";
+import { FaGlobe, FaGraduationCap, FaThumbsUp, FaGrav } from "react-icons/fa";
 import {
 	INFO,
 	EDUCATION,
@@ -37,7 +32,7 @@ function App() {
 						{INFO.FREELANCER ? "Available" : "Not Available"}
 					</li>
 					<li>
-						<span>Adress</span> : {INFO.ADDRESS}
+						<span>Address</span> : {INFO.ADDRESS}
 					</li>
 				</ul>
 			</section>
@@ -220,7 +215,7 @@ function App() {
 			<header className="header">
 				<div className="name">
 					<h2>Y Pham</h2>
-					<span>Senior Software Developer</span>
+					<span>Senior Software Engineer</span>
 				</div>
 				<div className="avatar"></div>
 			</header>

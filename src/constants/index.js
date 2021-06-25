@@ -23,7 +23,7 @@ export const SKILLS = {
 	React: 4,
 	Angular: 4,
 	"React Native": 4,
-	"Flutter": 3,
+	Flutter: 3,
 	"C#, ASP.NET, .NET Core": 4,
 	Python: 3,
 	"MS SQL Server, MySQL": 4,
