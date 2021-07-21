@@ -1,26 +1,26 @@
 @font-face {
 	font-family: titilliumlight_upright;
-	src: url("../fonts/titillium-lightupright.woff");
+	src: url('../fonts/titillium-lightupright.woff');
 }
 
 @font-face {
 	font-family: titilliumlight_bold;
-	src: url("../fonts/titillium-bold.woff");
+	src: url('../fonts/titillium-bold.woff');
 }
 
 @font-face {
 	font-family: open_sans;
-	src: url("../fonts/OpenSans-Light.woff");
+	src: url('../fonts/OpenSans-Light.woff');
 }
 
 @font-face {
 	font-family: open_sans_bold;
-	src: url("../fonts/OpenSans-Bold.woff");
+	src: url('../fonts/OpenSans-Bold.woff');
 }
 
 @font-face {
 	font-family: open_sans_italic;
-	src: url("../fonts/OpenSans-Italic.woff");
+	src: url('../fonts/OpenSans-Italic.woff');
 }
 
 body,
@@ -35,7 +35,7 @@ li {
 
 body {
 	background: #2b2b2b;
-	font: 15px/27px "open_sans", Arial, sans-serif;
+	font: 15px/27px 'open_sans', Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 }
@@ -54,7 +54,7 @@ body {
 
 	.header {
 		position: relative;
-		background-image: url("../images/cover.jpeg");
+		background-image: url('../images/cover.jpeg');
 		min-height: 300px;
 		background-position: left bottom;
 		background-repeat: no-repeat;
@@ -65,7 +65,7 @@ body {
 			color: #fff;
 			h2 {
 				font-size: 46px;
-				font-family: "titillium-semibold", Arial, sans-serif;
+				font-family: 'titillium-semibold', Arial, sans-serif;
 				color: #fff;
 			}
 		}
@@ -78,7 +78,7 @@ body {
 			z-index: 999;
 			position: absolute;
 			background: gainsboro;
-			background-image: url("../images/avatar.png");
+			background-image: url('../images/avatar.png');
 			background-repeat: no-repeat;
 			background-position: -1px -9px;
 			background-size: cover;
@@ -100,9 +100,9 @@ body {
 		position: relative;
 		h3 {
 			font-size: 28px;
-			font-family: "titilliumlight_upright", Arial, sans-serif;
+			font-family: 'titilliumlight_upright', Arial, sans-serif;
 			&::before {
-				content: "";
+				content: '';
 				position: absolute;
 				background: #199cdb;
 				height: 2px;
@@ -110,6 +110,13 @@ body {
 				top: 50px;
 				width: 30px;
 			}
+		}
+
+		&.sticky {
+			// position: sticky;
+			top: 0px;
+			// height: 100vh;
+			overflow: auto;
 		}
 
 		.info {
@@ -185,7 +192,7 @@ body {
 			);
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#ffffff',GradientType=0 );
 			bottom: 0;
-			content: "";
+			content: '';
 			left: 1px;
 			position: absolute;
 			top: 0;
@@ -201,11 +208,11 @@ body {
 
 			.hgroup {
 				h6 {
-					font-family: "open_sans_italic", Arial, sans-serif;
+					font-family: 'open_sans_italic', Arial, sans-serif;
 					font-size: 13px;
 				}
 				h4 {
-					font-family: "open_sans_bold", Arial, sans-serif;
+					font-family: 'open_sans_bold', Arial, sans-serif;
 					font-size: 15px;
 				}
 			}
@@ -213,7 +220,7 @@ body {
 			&::after {
 				background: #199cdb;
 				border: 3px solid #ffffff;
-				content: "";
+				content: '';
 				height: 14px;
 				left: -5px;
 				position: absolute;
@@ -248,7 +255,7 @@ body {
 		}
 	}
 	h4 {
-		font-family: "open_sans_bold", Arial, sans-serif;
+		font-family: 'open_sans_bold', Arial, sans-serif;
 		font-size: 15px;
 	}
 }
@@ -302,12 +309,12 @@ body {
 
 		.exp-date {
 			color: #199cdb;
-			font-family: "open_sans_bold", Arial, sans-serif;
+			font-family: 'open_sans_bold', Arial, sans-serif;
 			font-size: 13px;
 		}
 
 		.exp-title {
-			font-family: "open_sans_bold", Arial, sans-serif;
+			font-family: 'open_sans_bold', Arial, sans-serif;
 			font-size: 15px;
 		}
 
@@ -318,7 +325,7 @@ body {
 			color: #fff;
 			border-radius: 2px;
 			margin: 0px 5px 5px 0px;
-			font-family: "open_sans_bold";
+			font-family: 'open_sans_bold';
 		}
 	}
 }

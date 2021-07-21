@@ -33,7 +33,7 @@ export const SKILLS = {
 
 export const LANGUAGES = {
 	Vietnamese: 5,
-	English: 3,
+	English: 4,
 };
 
 export const INTERESTS = [
@@ -68,12 +68,13 @@ export const EXPERIENCES = [
 		techs: [
 			"React",
 			"React Native",
+			"Redux",
 			"GraphQL",
 			"S3 Bucket",
 			"Golang",
 			"MySQL",
 		],
-		responsibility: "FE Team Leader",
+		responsibility: "Team Leader",
 	},
 	{
 		title: "Enici (Samurai Security - Japan) - Orient Software",
@@ -82,7 +83,7 @@ export const EXPERIENCES = [
 			"Coming from a company of Japan, they want to develop the internal communication channel during the Covid-19 pandemic. " +
 			"This application allows users to send the message with frames and give receive award point to exchange gif from their store." +
 			"The system was built on both website and mobile application using Firebase.",
-		techs: ["React", "React Native", "Firebase", "Google Cloud"],
+		techs: ["React", "React Native", "Firebase", "Google Cloud", "Redux"],
 		responsibility: "Team Leader",
 	},
 	{
@@ -93,7 +94,7 @@ export const EXPERIENCES = [
 			"Provide for their customer a service to search the holtels and booking. " +
 			"The system was built on web app using Angular 8.",
 		techs: ["Angular", "Azure DevOps", ".NET Core", "Kafka", "MySQL"],
-		responsibility: "Developer",
+		responsibility: "Software Engineer",
 	},
 	{
 		title: "Airmine (Australia) - Orient Software",
@@ -103,7 +104,7 @@ export const EXPERIENCES = [
 			"Mobile application allows users to send the current location with temparature to the system, tracking and manage the data to report. " +
 			"The web app is an admin site for the administrator to get the detailed, and overview of the data.",
 		techs: ["React", "React Native", ".NET Core", "SQL Server"],
-		responsibility: "Developer",
+		responsibility: "Software Engineer",
 	},
 	{
 		title: "Dryer (Japan) - Orient Software",
@@ -112,7 +113,7 @@ export const EXPERIENCES = [
 			"Dryer Project is the responsive web application development for display and operator of 10 sensors and manage them. Start, Stop, Pause, and export data, " +
 			"display as real time. The website allows to drag & drop the components on layout, turn on and turn off the sensor.",
 		techs: ["React", "Redux Saga", "Python", "PostgreSQL", "Google Cloud"],
-		responsibility: "Developer",
+		responsibility: "Software Engineer",
 	},
 	{
 		title: "Inital Image Search (Japan) - Orient Software",
@@ -122,7 +123,7 @@ export const EXPERIENCES = [
 			"display result finding by AI. The website allows to drag & drop the components on layout, turn on AI for image search." +
 			"Using the image as input and process to search the same original image as output",
 		techs: ["React", "Redux Saga", "Python", "PostgreSQL", "Google Cloud"],
-		responsibility: "Developer",
+		responsibility: "Software Engineer",
 	},
 	{
 		title: "STAR - Survey Tracking (Malaysia) - FPT Software",
@@ -131,8 +132,8 @@ export const EXPERIENCES = [
 			"The purpose of the STAR System is to automate and improve the Contractor Performance Evaluation (CPE), and replace the existing SRM Module for CPE. " +
 			"The cumbersome processes lead to incomplete vendor reviews and inaccurate vendor performance ratings. Ratings were not used systematically in formal feedback reviews. " +
 			"Ratings, reviews and vendor feedback were not analyzed for prescriptive measures.",
-		techs: ["Angular", "KendoUI", ".NET", "Sql Server"],
-		responsibility: "Developer",
+		techs: ["Angular", "KendoUI", ".NET", "Sql Server", "Sencha Touch (Mobile App)"],
+		responsibility: "Software Engineer",
 	},
 	{
 		title: "Hotel Booking (Australia) - Success Software Service (HCM)",
@@ -141,7 +142,7 @@ export const EXPERIENCES = [
 			"The objective of the project is to implement a web application to manage multiple sites which provide services to booking hotel, booking restaurant, air plan, etc..., " +
 			"User can create new site by using this application and using template that application provided or create new template for the site of the user.",
 		techs: ["Angular", "JQuery", ".NET", "Sql Server"],
-		responsibility: "Developer",
+		responsibility: "Software Engineer",
 	},
 	{
 		title: "Investor (Australia) - Success Software Service (HCM)",
@@ -153,7 +154,7 @@ export const EXPERIENCES = [
 			"Each role of user has different permission on this system (View by fields, page and data type…)." +
 			"Administrator can export csv and pdf file to report by using this system..",
 		techs: [".NET", "JQuery", "Sql Server"],
-		responsibility: "Developer",
+		responsibility: "Software Engineer",
 	},
 	{
 		title: "House Provider (USA) - Success Software Service (HCM)",
@@ -162,6 +163,6 @@ export const EXPERIENCES = [
 			"The objective of the project is to make solution and develop a web system provides the services for customer to find (address, counties, hotel…) in America. " +
 			"And offer user find services easier. This application accepts user login by location or IP address.",
 		techs: [".NET MVC", "JQuery", "Sql Server"],
-		responsibility: "Developer",
+		responsibility: "Software Engineer",
 	},
 ];
