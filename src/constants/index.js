@@ -19,16 +19,19 @@ export const EDUCATION = [
 
 export const SKILLS = {
 	"HTML/CSS": 4,
+	"Javascript, TS": 4,
 	JQuery: 4,
 	React: 4,
 	Angular: 4,
 	"React Native": 4,
+	"NodeJS (Express, NestJs)": 4,
 	Flutter: 3,
 	"C#, ASP.NET, .NET Core": 4,
 	Python: 3,
-	"MS SQL Server, MySQL": 4,
+	"MS SQL Server, MySQL, PostgreSQL": 4,
 	Teamwork: 5,
 	Git: 5,
+	"Clouds (AWS, GCP)": 2
 };
 
 export const LANGUAGES = {
@@ -62,7 +65,7 @@ export const EXPERIENCES = [
 		description:
 			"This is a system of Singapore client, They had a existed their system that built for 5 years ago, using React and React Native. " +
 			"Belong to the education majo and allows their customers config by individual school. School can manage the posts, announcement and parents, children of the parents that studied in" +
-			"the school. " +
+			" the school. " +
 			"Currently I'm working for new features and updating their system." +
 			"",
 		techs: [
@@ -75,6 +78,24 @@ export const EXPERIENCES = [
 			"MySQL",
 		],
 		responsibility: "Team Leader",
+	},
+	{
+		title: "OSD Tool (Internal) - Orient Software",
+		date: "Feb 2023 - Apr 2023",
+		description:
+			"This is a system of tools as an internal project, using Node (Nest) and MySQL. " +
+			"This application allows HR to use and manage for the employee profiles, working hour, annual leave, attendance requests and also the Payslip PDF generation with secure password feature." +
+			"We're used Nest to build as Backend and reactjs as client side with some external libraries to develop, deployment using Bitbucket pipeline deploy to AWS Lightsail" +
+			"",
+		techs: [
+			"Node (Nest)",
+			"React",
+			"Redux",
+			"AWS Lightsail",
+			"Bitbucket Pipeline and Source control",
+			"MySQL",
+		],
+		responsibility: "Team Leader / Key Member",
 	},
 	{
 		title: "Enici (Samurai Security - Japan) - Orient Software",

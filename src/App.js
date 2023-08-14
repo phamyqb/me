@@ -173,7 +173,7 @@ function App() {
 				<div className='block border-box'>
 					<h3>Summary</h3>
 					<p className='mt-3 summary'>
-						Having 5 years of experiences in Web/ Mobile
+						Having more than 5 years of experiences in Web/ Mobile
 						development. I'm a creative, hardworking, enthusiastic,
 						ambitious and able to work under high pressure.
 						<br></br>I'm passionate about new technology and
